@@ -18,7 +18,7 @@ function fu(a, b) {
     const arr = courses.forEach(element => {
         const log = element.prices
         if (log[0] >= a && log[1] >= a && log[0] <= b && log[1] <= b) {
-            return array.push(log)
+            return array.push(element)
         } else {
             return null
         }
